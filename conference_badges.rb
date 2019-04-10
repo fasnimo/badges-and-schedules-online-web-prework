@@ -19,3 +19,13 @@ end
 return newarray
 end 
 
+def printer(people)
+  batch_badge_creator(people).each do |id|
+    puts id
+  end 
+  
+  assign_rooms(people).each do |id|
+    puts id 
+  end
+end 
+
