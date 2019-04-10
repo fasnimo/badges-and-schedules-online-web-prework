@@ -18,3 +18,4 @@ def assign_rooms(people)
 end
 return newarray
 end 
+
