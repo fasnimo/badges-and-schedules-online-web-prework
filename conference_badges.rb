@@ -9,3 +9,9 @@ def batch_badge_creator(name)
   end
   return newarray
 end 
+
+def assign_rooms(people)
+  newarray = []
+  counter = 1 
+  array.each do |name|
+end 
