@@ -1,5 +1,7 @@
-def badge_maker
+def badge_maker(name)
+  return "Hello my name is #{names}"
 end 
+
 def batch_badge_creator(names)
   newarray = []
   array.each do |names|
