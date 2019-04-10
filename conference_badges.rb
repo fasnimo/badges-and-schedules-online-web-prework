@@ -21,11 +21,11 @@ return newarray
 end 
 
 def printer(attendees)
-  batch_badge_creator(attendees).each do |bedges|
+  batch_badge_creator(attendees).each do |badges|
     puts badges
   end 
   
-  assign_rooms(attendees).each do |bedges|
+  assign_rooms(attendees).each do |badges|
     puts badges 
   end
 end 
